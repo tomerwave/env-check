@@ -1,0 +1,30 @@
+{
+  "name": "env-check",
+  "version": "0.1.0",
+  "description": "CLI tool to scan and fix environment variables in Node.js projects.",
+  "type": "module",
+  "bin": {
+    "env-check": "./bin/cli.js"
+  },
+  "main": "./bin/cli.js",
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "cli",
+    "env",
+    "dotenv",
+    "environment",
+    "checker"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^8.15.0",
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "dotenv": "^17.2.0",
+    "glob": "^11.0.3",
+    "recast": "^0.23.11"
+  }
+}
